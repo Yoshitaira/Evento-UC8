@@ -1,5 +1,0 @@
-1. Obter idade do usuário e informação se é participante ou palestrante
-2. Se for +18, liberar próxima etapa, se não Interromper cadastro
-3. Checar data de cadastro. Se estiver no prazo, liberar próxima etapa, se não, Interromper cadastro
-4. Verificar quantidade de partipantes/palestrantes. Se estiver <100 listar usuário e finalizar cadastro. Se não, avisar: "Quantidade máxima de usuários atingida"; Interromper cadastro
- 
