@@ -8,8 +8,53 @@ else {
     console.log("Não há mais vagas")
 }
 
+//verificação +18 Participantes
+const idadeParticipante = 18
+if(idadeParticipante >= 18){
+    console.log("Participante cadastrado")
+}
+else {
+    console.log("Apenas para maiores de 18 anos")
+}
+
+
+//
+//Lista de Palestranttes ainda restam vagas
+let ListaDepalestrantes = ["Marcos", "Agatha", "Nathan", "Danilo", "Daniela", "Jônatas", "Brenda"]
+
+if(ListaDeparticipantes.length < 15) {
+    console.log("Ainda restam vagas para palestrantes")
+}
+else {
+    console.log("Não há mais vagas")
+}
+
+//verificação +18 Participantes
+//const idadePalestrante = 31
+//if(idadePalestrante >=18){
+//    console.log("Palestrante cadastrado")
+//}
+//else {
+//    console.log("Apenas para maiores de 18 anos")
+//}
+
+//verificando datas
+var today = new Date(2021, 11, 25);{
+console.log(today.toLocaleDateString())
+}
+
+let Evento = new Date(2021, 11, 25); 
+if (today.getTime() < Evento.getTime()) 
+  console.log("ainda não chegou no dia do evento"); 
+else if (today.getTime() > Evento.getTime()) 
+  console.log("Opa, o evento já aconteceu. Tá atrasado!"); 
+else
+  console.log("É HOJE FI"); 
+
+
 //validação idade Participantes
 function calculaIdade(dataNasc){
+   
     var dataAtual = new Date();
     var anoAtual = dataAtual.getUTCFullYear();
     var anoNascParts = dataNasc.split('/');
@@ -34,27 +79,5 @@ else{
 }
 return idade
 }
-console.log (calculaIdade('31/10/2001'))
-
-//verificação +18
-let idade = 
-
-if ( idade> 18){
-    console.log ("Cadastrado")
-}
-else{
-    console.log("Apenas para maiores de 18")
-}
-
-//Lista de Palestranttes ainda restam vagas
-let ListaDepalestrantes = ["Marcos", "Agatha", "Nathan", "Danilo", "Daniela", "Jônatas", "Brenda"]
-
-if(ListaDeparticipantes.length < 15) {
-    console.log("Ainda restam vagas para palestrantes")
-}
-else {
-    console.log("Não há mais vagas")
-}
-
-//validação data de nascimento palestrantes
+console.log (calculaIdade('31/10/2011'))
 
